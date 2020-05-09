@@ -24,7 +24,7 @@ class CertificateEvaluator: NSObject, URLSessionDelegate {
     private let trustManager: UBServerTrustManager
 
     #if DEBUG
-        static let useCertificatePinning = true
+        static let useCertificatePinning = false
     #else
         static let useCertificatePinning = true
     #endif

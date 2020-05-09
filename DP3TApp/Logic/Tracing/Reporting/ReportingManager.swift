@@ -39,10 +39,10 @@ class ReportingManager {
     static let fakeCode = "000000000000"
 
     func report(covidCode: String = ReportingManager.fakeCode, isFakeRequest fake: Bool = false, completion: @escaping (ReportingProblem?) -> Void) {
-        if let tokenDate = codeDictionary[covidCode] {
+        //if let tokenDate = codeDictionary[covidCode] {
             // only second part needed
-            sendIWasExposed(token: tokenDate.0, date: tokenDate.1, isFakeRequest: fake, completion: completion)
-        } else {
+        sendIWasExposed(token: covidCode, date: Date(), isFakeRequest: fake, completion: completion)
+        /*} else {
             // get token and date first
             codeValidator.sendCodeRequest(code: covidCode, isFakeRequest: fake) { [weak self] result in
                 guard let strongSelf = self else { return }
@@ -60,7 +60,7 @@ class ReportingManager {
                     completion(.invalidCode)
                 }
             }
-        }
+        }*/
     }
 
     // MARK: - Second part: I was exposed

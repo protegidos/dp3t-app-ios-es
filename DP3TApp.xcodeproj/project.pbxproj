@@ -1907,13 +1907,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = XQUC3T7NHK;
 				INFOPLIST_FILE = "DP3TApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dpppt.protegidos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -2084,13 +2084,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = XQUC3T7NHK;
 				INFOPLIST_FILE = "DP3TApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dpppt.protegidos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2106,13 +2106,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = XQUC3T7NHK;
 				INFOPLIST_FILE = "DP3TApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dpppt.protegidos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -2231,13 +2231,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = XQUC3T7NHK;
 				INFOPLIST_FILE = "DP3TApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dpppt.protegidos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -2364,13 +2364,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = XQUC3T7NHK;
 				INFOPLIST_FILE = "DP3TApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dpppt.protegidos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

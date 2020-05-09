@@ -18,7 +18,7 @@ import UIKit
 class TracingManager: NSObject {
     /// Identifier known to
     /// https://github.com/DP-3T/dp3t-discovery/blob/master/discovery.json
-    let appId = "org.dpppt.demo" // "ch.ubique.nextstep"
+    let appId = "org.dpppt.protegidos" // "ch.ubique.nextstep"
 
     static let shared = TracingManager()
 
@@ -53,15 +53,16 @@ class TracingManager: NSObject {
                 switch Environment.current {
                 case .dev:
                     // 5min Batch lenght on dev Enviroment
-                    DP3TTracing.parameters.networking.batchLength = 5 * 60
+                    DP3TTracing.parameters.networking.batchLength = 10 * 60
                     var appVersion = "N/A"
                     if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String,
                         let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
                         appVersion = "\(version)(\(build))"
                     }
-                    try DP3TTracing.initialize(with: .manual(descriptor),
+                    /*try DP3TTracing.initialize(with: .manual(descriptor),
                                                urlSession: URLSession.certificatePinned,
-                                               mode: .calibration(identifierPrefix: "", appVersion: appVersion))
+                                               mode: .calibration(identifierPrefix: "", appVersion: appVersion))*/
+                    try DP3TTracing.initialize(with: .manual(descriptor))
                 case .abnahme:
                     try DP3TTracing.initialize(with: .manual(descriptor),
                                                urlSession: URLSession.certificatePinned)
