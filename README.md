@@ -1,4 +1,4 @@
-# Protegidos – DP3T iOS App Spain (Proposal)
+# Protegidos – DP3T iOS App Spain (proposal)
 
 [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-%E2%9C%93-brightgreen.svg?style=flat)](https://github.com/apple/swift-package-manager)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://github.com/DP-3T/dp3t-sdk-ios-ch/blob/master/LICENSE)
