@@ -54,6 +54,7 @@ class TracingManager: NSObject {
                 case .dev:
                     // 5min Batch lenght on dev Enviroment
                     DP3TTracing.parameters.networking.batchLength = 10 * 60
+                    DP3TTracing.parameters.contactMatching.numberOfWindowsForExposure = 1
                     var appVersion = "N/A"
                     if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String,
                         let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {

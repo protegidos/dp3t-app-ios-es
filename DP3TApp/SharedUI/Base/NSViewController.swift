@@ -11,7 +11,7 @@ class NSViewController: UIViewController {
     // MARK: - Views
 
     private let loadingView = NSLoadingView()
-    private let swissFlagImage = UIImage(named: "ic_navbar_schweiz_wappen")?.withRenderingMode(.alwaysOriginal)
+    private let swissFlagImage = UIImage(named: "ic_spanish_flag")?.withRenderingMode(.alwaysOriginal)
 
     // MARK: - Public API
 
