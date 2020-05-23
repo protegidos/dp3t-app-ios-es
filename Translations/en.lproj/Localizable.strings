@@ -1,9 +1,9 @@
 
 /*App Name*/
-"app_name" = "SwissCovid";
+"app_name" = "Protegidos";
 
 /*App Name (unter Icon auf iOS)*/
-"CFBundleDisplayName" = "SwissCovid";
+"CFBundleDisplayName" = "Protegidos";
 
 /*Loading View: Erneut laden*/
 "loading_view_reload" = "Reload";
@@ -306,7 +306,7 @@
 "meldungen_detail_explanation_text2" = "Please protect your family, your friends and those around you. Avoid contacts for up to 10 days after a possible infection.";
 
 /*Meldungen Detail: Weisse Box Text*/
-"meldungen_detail_guard_text" = "If you have any questions:\nInfoline Coronavirus\n+41 58 387 77 78";
+"meldungen_detail_guard_text" = "If you have any questions:\nInfoline Coronavirus\n++34 00 00 00 000";
 
 /*Meldungen Detail Button Weisse Box*/
 "meldungen_detail_call_again_button" = "Call again";
@@ -324,7 +324,7 @@
 "onboarding_prinzip_title" = "Staying one step ahead of the virus";
 
 /*Onboarding Prinzip Text*/
-"onboarding_prinzip_text1" = "By using the SwissCovid app, we can all help to contain the spread of the new coronavirus.";
+"onboarding_prinzip_text1" = "By using the Protegidos app, we can all help to contain the spread of the new coronavirus.";
 
 /*Onboarding Prinzip Text*/
 "onboarding_prinzip_text2" = "The app provides information on suspected infections. In this way, the chain of infection can be broken.";
@@ -432,7 +432,7 @@
 "inform_code_invalid_title" = "Code invalid";
 
 /*Fehlermeldung Subtitle ungültiger Code*/
-"inform_code_invalid_subtitle" = "If you have any questions: App-Hotline\n+41 58 466 07 99";
+"inform_code_invalid_subtitle" = "If you have any questions: App-Hotline\n++34 00 00 00 000";
 
 /*Datum: Vor 1 Tag*/
 "date_one_day_ago" = "1 day ago";
@@ -616,10 +616,10 @@
 "inform_detail_faq2_title" = "How do I remain anonymous?";
 
 /*Inform Detail FAQ Text*/
-"inform_detail_faq2_text" = "Only the temporary keys from your app are sent, no personal data. \n\nOther SwissCovid apps can then check if they have had an encounter with your app in the past few days.";
+"inform_detail_faq2_text" = "Only the temporary keys from your app are sent, no personal data. \n\nOther Protegidos apps can then check if they have had an encounter with your app in the past few days.";
 
 /*Telefonnummer der Infoline*/
-"infoline_tel_number" = "+41 58 387 77 78";
+"infoline_tel_number" = "+34 00 00 00 000";
 
 /*URL für Häufige Fragen Button*/
 "faq_button_url" = "https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/haeufig-gestellte-fragen.html";
@@ -739,7 +739,7 @@
 "tracing_permission_error_text" = "Activate the function \"COVID-19 notification\" for anonymous tracing to work.";
 
 /*Error-Meldung, wenn der Benutzer während des Informieren-Flows bei GApple das Key-Sharing nicht erlaubt.*/
-"user_cancelled_key_sharing_error" = "The message could not be sent. Please allow sharing your random IDs with the SwissCovid app.";
+"user_cancelled_key_sharing_error" = "The message could not be sent. Please allow sharing your random IDs with the Protegidos app.";
 
 /*Button um die Google Play Services zu aktualisieren*/
 "playservices_update" = "Update";
@@ -758,7 +758,7 @@
 "android_error_battery_optimization_button" = "Allow";
 
 /*Telefonnummer für Hilfe bei App-Problemen*/
-"app_hotline_tel_number" = "+41 58 466 07 99";
+"app_hotline_tel_number" = "+34 00 00 00 000";
 
 /*text shown in notification when we get an exception from the GAEN api*/
 "sync_api_error" = "An unexpected error has occurred while synchronising reports.";

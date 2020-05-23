@@ -24,7 +24,7 @@ class CertificateEvaluator: NSObject, URLSessionDelegate {
     private let trustManager: UBServerTrustManager
 
     #if DEBUG
-        static let useCertificatePinning = true
+        static let useCertificatePinning = false
     #else
         static let useCertificatePinning = true
     #endif
@@ -40,14 +40,7 @@ class CertificateEvaluator: NSObject, URLSessionDelegate {
         let bundle = Bundle.main
 
         // all these hosts have a seperate certificate
-        let hosts = ["www.pt1.bfs.admin.ch",
-                     "www.pt1-d.bfs.admin.ch",
-                     "www.pt1-a.bfs.admin.ch",
-                     "www.pt1-t.bfs.admin.ch",
-                     "codegen-service.bag.admin.ch",
-                     "codegen-service-d.bag.admin.ch",
-                     "codegen-service-a.bag.admin.ch",
-                     "codegen-service-t.bag.admin.ch"]
+        let hosts = ["emasab.duckdns.org"]
         for host in hosts {
             if let certificate = bundle.getCertificate(with: host) {
                 let evaluator = UBPinnedCertificatesTrustEvaluator(certificates: [certificate], validateHost: true)
