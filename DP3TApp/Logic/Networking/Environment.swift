@@ -31,12 +31,13 @@ enum Environment {
 
     var codegenService: Backend {
         switch self {
-        case .dev:
-            return Backend("https://codegen-service-d.bag.admin.ch", version: "v1")
+        case .
+        dev:
+            return Backend("https://emasab.duckdns.org:4433", version: "v1")
         case .abnahme:
-            return Backend("https://codegen-service-a.bag.admin.ch", version: "v1")
+            return Backend("https://emasab.duckdns.org:4433", version: "v1")
         case .prod:
-            return Backend("https://codegen-service.bag.admin.ch", version: "v1")
+            return Backend("https://emasab.duckdns.org:4433", version: "v1")
         }
     }
 
@@ -44,22 +45,22 @@ enum Environment {
     var configService: Backend {
         switch self {
         case .dev:
-            return Backend("https://www.pt-d.bfs.admin.ch", version: "v1")
+            return Backend("https://emasab.duckdns.org:4433", version: "v1")
         case .abnahme:
-            return Backend("https://www.pt-a.bfs.admin.ch", version: "v1")
+            return Backend("https://emasab.duckdns.org:4433", version: "v1")
         case .prod:
-            return Backend("https://www.pt.bfs.admin.ch", version: "v1")
+            return Backend("https://emasab.duckdns.org:4433", version: "v1")
         }
     }
 
     var publishService: Backend {
         switch self {
         case .dev:
-            return Backend("https://www.pt1-d.bfs.admin.ch", version: "v1")
+            return Backend("https://emasab.duckdns.org:4433", version: "v1")
         case .abnahme:
-            return Backend("https://www.pt1-a.bfs.admin.ch", version: "v1")
+            return Backend("https://emasab.duckdns.org:4433", version: "v1")
         case .prod:
-            return Backend("https://www.pt1.bfs.admin.ch", version: "v1")
+            return Backend("https://emasab.duckdns.org:4433", version: "v1")
         }
     }
 }

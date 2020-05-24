@@ -24,14 +24,14 @@ class CertificateEvaluator: NSObject, URLSessionDelegate {
     private let trustManager: UBServerTrustManager
 
     #if DEBUG
-        static let useCertificatePinning = true
+        static let useCertificatePinning = false
     #else
-        static let useCertificatePinning = true
+        static let useCertificatePinning = false
     #endif
 
     override init() {
         if !CertificateEvaluator.useCertificatePinning {
-            trustManager = UBServerTrustManager(evaluators: ["*": UBDisabledEvaluator()])
+            trustManager = UBServerTrustManager(evaluators: ["*": UBDisabledEvaluator()], default: UBDisabledEvaluator())
             return
         }
 
